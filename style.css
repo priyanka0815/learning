@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 110vh;
+    color: #27f7f8;
+    background-image: url('../images/The Meta Warse.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact .row {
+    /* flex:1 1 6rem; */
+    padding:5rem 3rem 3rem;
+    padding-bottom: 0;
+    margin-top: 5rem;
+  
+  }
+  
+  .contact .row form{
+    flex:1 1rem;
+  padding: 10px 10px 20px 10 px;  /* margin:10rem 3rem 2rem; */
+    margin-bottom: 8rem; 
+    background-color: rgba(0, 255, 255,0.6);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 20px;
+  }
+  
+  .contact .row form .box{
+    padding:1rem 20px 20px 20px ;
+    margin:2rem  0rem 0rem 2rem;
+    background:rgba(28,134,134,0.7);
+    color:#27f7f8;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:80%;
+    border-radius: 10px;
+  
+  }
+  
+  .contact .row form .box::placeholder{
+    text-transform: capitalize;
+    color: #27f7f8;
+  }
+  
+  .contact .row form .message{
+    height: 7rem;
+    resize: none;
+  }
+  
+  .contact .row .content .title{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 2rem;
+    /* padding: 3rem 10rem; */
+    /* padding-bottom: 2rem; */
+    margin-top: -18rem;
+    margin-right: -264px;
+  
+  }
+  
+  .contact .row .content .info {
+  
+    margin-top: 100px;
+    width: 500px;
+    height: 450px;
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  
+  .contact .row .content  h3 {
+    padding: 8rem 15rem  0rem;
+    color:blue;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+  }
+  
+  .btn{
+    padding:.5rem 3rem  ;
+    background:rgba(0, 255, 255,0.7);
+    color:#27f7f8;
+    cursor: pointer;
+    margin: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    float: right;
+  }
+  
+  .btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+  }
+  
+  .btn:hover{
+    background:blue;
+  }
+  
+  
+  
+  
